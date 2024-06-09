@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pachmarhi Guide</title>
+<head>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font: 400 15px/1.8 "Lato", sans-serif;
+            color: #777;
+        }
+
+        .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11, .bgimg-12 {
+            position: relative;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bgimg-1 {
+            background-image: url("p.jpg");
+            min-height: 100%;
+        }
+
+        .bgimg-2 {
+            background-image: url("jt3.jpg");
+            min-height: 700px;
+            animation: img2 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-3 {
+            background-image: url("s1.jpg");
+            min-height: 700px;
+            animation: img3 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-4 {
+            background-image: url("b4.jpg");
+            min-height: 700px;
+            animation: img4 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-5 {
+            background-image: url("C1.jpg");
+            min-height: 700px;
+            animation: img5 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-6 {
+            background-image: url("R4.jpg");
+            min-height: 700px;
+            animation: img6 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-7 {
+            background-image: url("BM3.jpg");
+            min-height: 700px;
+            animation: img7 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-8 {
+            background-image: url("p1.jpg");
+            min-height: 700px;
+            animation: img8 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-9 {
+            background-image: url("blm5.jpg");
+            min-height: 700px;
+            animation: img9 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-10 {
+            background-image: url("A1.jpg");
+            min-height: 700px;
+            animation: img10 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-11 {
+            background-image: url("D1.jpg");
+            min-height: 700px;
+            animation: img11 6s infinite; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bgimg-12 {
+            background-image: url("r.jpg");
+            min-height: 700px;
+        }
+
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 20%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+        }
+
+        .caption span.border {
+            background-color: #111;
+            color: #fff;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 10px;
+        }
+
+        h3 {
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            font: 25px "Lato", sans-serif;
+            color: #111;
+        }
+
+        .capt{
+          position: absolute;
+          top: 65%;
+          width: 100%;
+          text-align: center;
+          color: gold;
+          background-color:transparent;
+          padding: 18px;
+          font-family:cursive;
+          font-size: 35px;
+          letter-spacing: 6px;  
+          text-shadow: 4px 4px 8px rgba(30, 117, 4, 0.662);
+        }
+
+        @keyframes img2 {
+          33% { background-image: url('jt2.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('jt1.jpg'); } /* Change 'image3.jpg' to your image path */
+        }
+        @keyframes img3 {
+          33% { background-image: url('s3.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('s2.jpg'); } /* Change 'image3.jpg' to your image path */
+        }
+        @keyframes img4 {
+          33% { background-image: url('b1.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('b3.jpg'); } /* Change 'image3.jpg' to your image path */
+        }
+        @keyframes img5 {
+          33% { background-image: url('C2.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('C3.jpg'); } /* Change 'image3.jpg' to your image path */
+        }
+        @keyframes img6 {
+          33% { background-image: url('R1.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('R2.jpg'); } /* Change 'image3.jpg' to your image path */
+        }
+        @keyframes img7 {
+          33% { background-image: url('BM2.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('BM1.jpeg'); } /* Change 'image3.jpg' to your image path */
+        }
+        @keyframes img8 {
+          33% { background-image: url('p3.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('p6.jpg'); } /* Change 'image3.jpg' to your image path */
+        }
+        @keyframes img9 {
+          33% { background-image: url('blm1.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('blm9.jpg'); } /* Change 'image3.jpg' to your image path */
+        }
+        @keyframes img10 {
+          33% { background-image: url('A3.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('A5.jpg'); } /* Change 'image3.jpg' to your image path */
+        }
+        @keyframes img11 {
+          33% { background-image: url('D3.jpg'); } /* Change 'image1.jpg' to your image path */
+          66% { background-image: url('D2.jpg'); } /* Change 'image3.jpg' to your image path */
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="bgimg-1">
+    <!-- <div class="caption"> -->
+        <!-- <span class="border">SCROLL DOWN</span> -->
+    <!-- </div> -->
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;font-size:18px">
+    <h3 style="text-align:center;">Explore :- </h3>
+    <p>Pachmarhi is a charming hill station nestled in the Satpura Range of Madhya Pradesh, India. This picturesque hill station, often hailed as the "Queen of Satpura," enchants visitors with its lush forests, cascading waterfalls, and panoramic viewpoints that offer breathtaking vistas of the surrounding landscape. With a rich history dating back to ancient times, Pachmarhi boasts of mythological significance intertwined with its rocky caves and tranquil valleys. From the sacred shrines of Chauragarh Temple and Mahadeo Cave Temple to the awe-inspiring Bee Falls and Dhoopgarh Peak, Pachmarhi beckons adventurers, nature enthusiasts, and seekers of solace alike, promising a memorable retreat amidst the timeless beauty of the Satpura Hills.</p>
+</div>
+
+<div class="bgimg-2">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7;">Jatashankar Temple</span>
+    </div>
+</div>
+
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Jatashankar Temple in Pachmarhi is a special place where people go to pray and feel connected to God. It's a cave temple nestled in the mountains, dedicated to Lord Shiva, one of the important gods in Hinduism. Inside the temple, there's a natural rock formation that looks like Shiva's matted hair, which is why it's called "Jatashankar." People believe that visiting this temple brings peace and blessings. The surroundings are calm and serene, making it a peaceful spot for meditation and reflection. Many visitors also enjoy exploring the caves and enjoying the beautiful nature around the temple.</p>
+    </div>
+</div>
+
+<div class="bgimg-3">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7;">Satpura National Park</span>
+    </div>
+</div>
+
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Satpura National Park, situated near Pachmarhi, is a haven for wildlife enthusiasts and nature lovers alike. Spanning across the rugged terrains of the Satpura Range, this biodiverse sanctuary teems with a rich variety of flora and fauna, including rare and endangered species. Visitors to Satpura National Park can embark on thrilling wildlife safaris, where they may encounter majestic creatures such as tigers, leopards, Indian bison (gaur), sloth bears, and a multitude of bird species. The park's diverse landscapes, comprising dense forests, meandering rivers, and scenic hills, provide a picturesque backdrop for exploration and adventure. Whether trekking through pristine wilderness, cruising along tranquil waterways, or simply soaking in the sights and sounds of the jungle, Satpura National Park offers a captivating and immersive experience that leaves a lasting impression on all who venture into its wild embrace.</p>
+    </div>
+</div>
+
+<div class="bgimg-4">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7;">Bee Fall</span>
+    </div>
+</div>
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Bee Falls, located in Pachmarhi, is a beautiful waterfall that looks like a beehive when viewed from above, hence its name. It's a popular attraction for tourists because of its stunning natural beauty and tranquil surroundings. The waterfall cascades down from a height, creating a refreshing pool of water below where people can swim and cool off during hot days. The sound of the water falling is soothing, and the area around the falls is surrounded by lush greenery, making it a peaceful place to relax and enjoy nature's wonders. Many visitors enjoy taking photographs and spending time with family and friends while admiring the scenic beauty of Bee Falls.</p>
+    </div>
+</div>
+
+<div class="bgimg-5">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7;">Chauragarh Peek</span>
+    </div>
+</div>
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Chauragarh, situated in Pachmarhi, is a sacred mountain known for its temple dedicated to Lord Shiva. Many pilgrims visit this temple to seek blessings and offer prayers. To reach the temple, visitors have to climb around 1,300 steps, which can be a challenging but rewarding experience. Along the way, you can enjoy stunning views of the surrounding hills and forests. The temple itself is small but holds great spiritual significance for devotees. It's also known for the thousands of tridents (trishuls) that devotees offer to Lord Shiva as a symbol of their devotion. The atmosphere around Chauragarh is peaceful and serene, making it a place of solace and spirituality for visitors.</p>
+    </div>
+</div>
+
+<div class="bgimg-6">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7;">Reechgarh</span>
+    </div>
+</div>
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Reechgarh in Pachmarhi is a fascinating cave that attracts many visitors. It's called "Reechgarh" because it's believed that bears (called "Reech" in Hindi) used to live here long ago. The cave is famous for its unique rock formations and tunnels, which you can explore while marveling at the natural beauty inside. As you venture deeper into the cave, you'll encounter narrow passages and intriguing rock shapes that resemble animals and other objects. It's a thrilling experience for adventurers and nature lovers alike. While exploring Reechgarh, you'll also get a chance to appreciate the cool, dimly lit environment and learn about the geological wonders that have formed over time.</p>
+    </div>
+</div>
+
+<div class="bgimg-7">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7;">Bada Mahadeo Mandir</span>
+    </div>
+</div>
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Bada Mahadeo Temple in Pachmarhi is a revered Hindu shrine dedicated to Lord Shiva, one of the principal deities in Hinduism. Situated amidst the tranquil surroundings of Pachmarhi, this temple holds immense religious significance for devotees. What sets Bada Mahadeo apart is its unique location inside a cave, adding to its mystical allure. The temple houses a large Shiva Lingam, a sacred symbol representing Lord Shiva, which devotees worship with great reverence. To reach the temple, visitors have to navigate through a series of natural rock formations and caves, creating a sense of adventure and spirituality intertwined. The serene ambiance of the temple, surrounded by lush greenery and the soothing sounds of nature, makes it a serene retreat for devotees seeking solace and spiritual enlightenment amidst the natural beauty of Pachmarhi.</p>
+    </div>
+</div>
+
+<div class="bgimg-8">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7e1;">Pandava Caves</span>
+    </div>
+</div>
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Pandava Caves in Pachmarhi hold a special place in the hearts of visitors due to their historical and mythological significance. These ancient caves, nestled amidst the verdant forests of Pachmarhi, are believed to have served as shelters for the Pandavas, heroes of the Indian epic Mahabharata, during their exile. As you explore the caves, you can't help but marvel at the ancient rock formations and the quiet serenity that pervades the surroundings. Inside the caves, you'll find intricate carvings and inscriptions that offer a glimpse into the lives of the ancient inhabitants. Visitors often feel a sense of awe and reverence as they wander through the dimly lit corridors, imagining the tales of valor and resilience that echo through these time-worn caverns. Pandava Caves stand as a testament to the rich cultural heritage and enduring legacy of Pachmarhi, inviting travelers to embark on a journey through time and mythology.</p>
+    </div>
+</div>
+
+<div class="bgimg-9">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7;">Bison Lodge Museum</span>
+    </div>
+</div>
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>The Bison Lodge Museum in Pachmarhi is a fascinating destination that offers insight into the rich history and biodiversity of the region. Originally built in the late 19th century as a forest lodge for British officials, the Bison Lodge now serves as a museum, showcasing a diverse collection of artifacts, exhibits, and specimens. Visitors can explore displays highlighting the flora, fauna, geology, and culture of Pachmarhi and its surrounding areas. From taxidermy specimens of local wildlife to ancient artifacts and photographs depicting the region's colonial past, the museum offers a captivating journey through time. With its informative exhibits and picturesque setting amidst lush greenery, the Bison Lodge Museum provides a memorable and educational experience for visitors of all ages, offering a deeper understanding and appreciation of Pachmarhi's natural and cultural heritage.</p>
+    </div>
+</div>
+
+<div class="bgimg-10">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7;">Apsara Vihar</span>
+    </div>
+</div>
+
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Apsara Vihar, also known as Fairy Pool, is a charming natural pool nestled amidst the scenic beauty of Pachmarhi. This picturesque destination captivates visitors with its crystal-clear waters cascading gently over rocks, creating a serene and enchanting ambiance reminiscent of a fairy tale setting. Surrounded by lush greenery and towering trees, Apsara Vihar offers a tranquil oasis where visitors can unwind and rejuvenate amidst nature's splendor. The pool is a popular spot for swimming and relaxation, with its cool, refreshing waters providing respite from the heat during hot summer days. Whether you're seeking adventure, tranquility, or simply a place to connect with nature, Apsara Vihar in Pachmarhi promises a delightful experience for all who visit.</p>
+    </div>
+</div>
+
+<div class="bgimg-11">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:50px;color: #f7f7f7;">Dhoopgarh</span>
+    </div>
+</div>
+
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Dhoopgarh in Pachmarhi is the highest point in the area, where you can see amazing views of the surrounding mountains and valleys. It's a popular spot for tourists because it offers a breathtaking sight, especially during sunrise and sunset. People often come here to watch the sky change colors as the sun rises or sets behind the hills. The air feels fresh and cool, and the atmosphere is peaceful, making it a perfect place to relax and take in the beauty of nature. Many visitors bring snacks and drinks to enjoy a picnic while admiring the scenic landscape from this elevated vantage point.</p>
+    </div>
+</div>
+
+<div class="bgimg-12">
+    <div class="capt">
+        <span class="border"><b><u>DO VISIT<br>WITH<br>FRIENDS AND FAMILY !!!!</b></span></span>
+    </div>
+</div>
+
+</body>
+</html>
